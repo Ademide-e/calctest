@@ -1,0 +1,235 @@
+body{
+    background-image: url("classroom background.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+.classA{
+    background-color: grey;
+    border-radius: 40px;
+    border-color: rgb(56, 54, 54);
+    height: 500px;
+    width: 350px;
+    padding: 30px;
+    box-shadow: 4px 8px 7px 5px black;
+    margin: auto;
+}
+.classB{
+    background-color: rgb(209, 202, 202);
+    border-radius: 20px;
+    border-color: rgb(166, 164, 164);
+    height: 100px;
+    /* width: 355px; */
+    width: 260px;
+    text-align: right;
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: inset 0px 7px 10px 0px;
+    display: inline-block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.button2container{
+    height: 100px;
+    width: 70px;
+    float: right;
+    background-color: grey;
+    display: block;
+    padding-right: 4px;
+}
+.button2{
+    width: 75px;
+    height: 40px;
+    box-shadow: inset 0px -1px 10px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    text-align: center;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    display: block;
+    margin-bottom: 5px;
+}
+.button2:hover{
+    color: bisque;
+    font-size: 21px;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-name: font-effect-fire-animation-keyframes;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    color: rgb(227, 109, 109);
+}
+.grid-container {
+display: grid;
+grid-template-columns: auto auto auto auto;
+padding: 10px;
+}
+.grid-item {
+background-color: white;
+border-radius: 20px;
+width: 75px;
+height: 80px;
+margin-top: 18px;
+margin-right: 12px;
+text-align: center;
+font-size: 60px;
+font-family: 'Montserrat', sans-serif;
+box-shadow: inset 0px -1px 10px 2px;
+/* cursor: pointer; */
+}
+.input-display{
+padding: 10px;
+}
+.grid-item:hover{
+color: bisque;
+font-size: 70px;
+-webkit-animation-duration: 0.8s;
+-webkit-animation-name: font-effect-fire-animation-keyframes;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+color: rgb(227, 109, 109);
+}
+/* buttons */
+button:hover{
+    color: bisque;
+    font-size: 70px;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-name: font-effect-fire-animation-keyframes;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    color: rgb(227, 109, 109);
+    }
+button{
+    width: 75px;
+    height: 80px;
+    box-shadow: inset 0px -1px 10px 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 480px){
+    body{
+        background-image: none;
+        background-color: beige;
+    }
+}
+@media screen and (max-width: 480px){
+    body {
+      background-image: url(classroom\ background.webp);
+      background-size: 100% 100%;
+      background-color: beige;
+      padding-top: auto;
+    }
+    .classA{
+      background-color: grey;
+      border-radius: 20px;
+      border-color: rgb(56, 54, 54);
+      height: 250px;
+      width: 175px;
+      padding: 15px;
+      box-shadow: 4px 8px 7px 1px black;
+      margin: auto;
+  }
+  .classB{
+      background-color: rgb(209, 202, 202);
+      border-radius: 10px;
+      border-color: rgb(166, 164, 164);
+      height: 50px;
+      width: 120px;
+      text-align: right;
+      font-size: 30px;
+      font-family: 'Roboto Mono', monospace;
+      box-shadow: inset 0px 7px 10px 0px;
+  }
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 5px;
+  
+  }
+  .grid-item {
+  background-color: white;
+  border-radius: 10px;
+  width: 38px;
+  height: 40px;
+  margin-top: 9px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: inset 0px -1px 10px 2px;
+  cursor: pointer;
+  }
+  .input-display{
+  padding: 10px;
+  }
+  .grid-item:hover{
+  color: bisque;
+  font-size: 35px;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-name: font-effect-fire-animation-keyframes;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  color: rgb(227, 109, 109);
+  }
+  button:hover{
+    color: bisque;
+    font-size: 35px;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-name: font-effect-fire-animation-keyframes;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    color: rgb(227, 109, 109);
+    }
+button{
+    width: 37px;
+    height: 40px;
+    box-shadow: inset 0px -1px 10px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button2{
+    width: 37px;
+    height: 20px;
+    box-shadow: inset 0px -1px 10px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    text-align: center;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    display: block;
+    margin-bottom: 5px;
+}
+.button2:hover{
+    color: bisque;
+    font-size: 11px;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-name: font-effect-fire-animation-keyframes;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    color: rgb(227, 109, 109);
+}
+.button2container{
+    height: 100px;
+    width: 40px;
+    float: right;
+    background-color: grey;
+    display: block;
+    padding-right: 4px;
+    margin-top: -7px;
+}
+}

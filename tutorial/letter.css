@@ -1,0 +1,13 @@
+body{
+    padding: 0px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: rgb(207, 204, 204);
+}
+.class1{
+    float: right;
+}
+.class2{
+    background-color: white;
+    overflow: auto;
+    padding: 200px;}

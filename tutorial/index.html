@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&family=Orbitron&family=Roboto+Mono&effect=neon|outline|emboss|shadow-multiple" 
+rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple|fire-animation">
+
+</head>
+<body>
+    <div class="classA">
+        <div class="classB">
+            <div class="input-display" id="inputDisplay">
+                0
+            </div>
+        </div>
+        <div class="button2container" style="padding-top: 10px;">
+            <!-- <div class="button2" id="b16"><strong>AC</strong></div>
+            <div class="button2" id="b17"><strong>DEL</strong></div> -->
+            <button class="button2" id="b16" onclick="clearAllCharacters()"><strong>AC</strong></button>
+            <button class="button2" id="b17" onclick="deleteCharacter()"><strong>DEL</strong></button>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item"><button type="button" id="b7" onclick="getCharacter(7)"><strong>7</strong></button></div>
+            <div class="grid-item"><button type="button" id="b8" onclick="getCharacter(8)"><strong>8</strong></button></div>
+            <div class="grid-item"><button type="button" id="b9" onclick="getCharacter(9)"><strong>9</strong></button></div>  
+            <div class="grid-item"><button type="button" id="b10" onclick="getCharacter('/')"><strong>&divide;</strong></button></div>
+            <div class="grid-item"><button type="button" id="b4" onclick="getCharacter(4)"><strong>4</strong></button></div>
+            <div class="grid-item"><button type="button" id="b5" onclick="getCharacter(5)"><strong>5</strong></button></div>  
+            <div class="grid-item"><button type="button" id="b6" onclick="getCharacter(6)"><strong>6</strong></button></div>
+            <div class="grid-item"><button type="button" id="b11" onclick="getCharacter('*')"><strong>&times;</strong></button></div>
+            <div class="grid-item"><button type="button" id="b1" onclick="getCharacter(1)"><strong>1</strong></button></div>
+            <div class="grid-item"><button type="button" id="b2" onclick="getCharacter(2)"><strong>2</strong></button></div>
+            <div class="grid-item"><button type="button" id="b3" onclick="getCharacter(3)"><strong>3</strong></button></div>
+            <div class="grid-item"><button type="button" id="b12" onclick="getCharacter('-')"><strong>-</strong></button></div>
+            <div class="grid-item"><button type="button" id="b0" onclick="getCharacter(0)"><strong>0</strong></button></div>
+            <div class="grid-item"><button type="button" id="b13" onclick="getCharacter('.')"><strong>.</strong></button></div>
+            <div class="grid-item"><button type="button" id="b14" onclick="getCharacter('+')"><strong>+</strong></button></div>
+            <div class="grid-item" style="background-color: orange;"><button type="button" id="b15" style="background-color: orange;" onclick="equals()"><strong>=</strong></button></div>  
+          </div>
+    </div>
+<p><br><br></p>
+<p style="text-align: center; font-size: 30px;"><a href="index.html">click here to refresh</a></p>
+    <!-- <h1 class="font-effect-fire-animation" style="font-size: 60px;">CALCULATOR</h1> -->
+<script src="calculator.js"></script>
+</body>
+</html>
+<!--<div class="classC"></div>  <div class="classC"></div> <div class="classC"></div>  <div class="classC"></div>-->
+<!--.classC
+            background-color: white;
+            border-radius: 20px;
+            border-color: rgb(177, 173, 173);
+            height: 80px;
+            width: 80px;
+            margin-top: 21px;
+        }
+        
+        div.ademide{
+        width: 100%;
+        overflow: auto;
+        background-color: white;
+        border-radius: 20px;
+        border-color: rgb(177, 173, 173);
+        height: 80px;
+        margin-top: 21px;
+        margin-right: 21px;
+    }
+    div.ademide div{
+        width: 25%;
+        float: left;
+        margin-top: 21px;
+        margin-right: 21px;
+    }-->
