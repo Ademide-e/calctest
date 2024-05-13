@@ -5,6 +5,13 @@ body{
     margin-top: 50px;
     height: 100%;
 }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .classA{
     background-color: grey;
     border-radius: 40px;
@@ -124,7 +131,6 @@ button{
     body {
       background-image: url(classroom\ background.webp);
       background-size: 100% 100%;
-      background-color: beige;
       padding-top: auto;
     }
     .classA{
