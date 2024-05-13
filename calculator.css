@@ -1,16 +1,14 @@
 body{
-    background-image: url("classroom background.webp");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin-top: 50px;
-    height: 100%;
+    /* background-image: url("classroom background.webp"); */
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
 }
 .container{
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .classA{
     background-color: grey;
@@ -129,9 +127,8 @@ button{
 }
 @media screen and (max-width: 480px){
     body {
-      background-image: url(classroom\ background.webp);
-      background-size: 100% 100%;
-      padding-top: auto;
+      background-image: linear-gradient(yellow, black);
+      /* background-size: 100% 100%; */
     }
     .classA{
       background-color: grey;
